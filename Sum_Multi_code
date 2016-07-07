@@ -1,0 +1,16 @@
+function add(a,b) {
+	return a + b;
+}
+function solution(number){
+	three = 0;
+	five = 0;
+	for (t = 3; t < number; t += 3) {
+		if (t % 5 !== 0) //Because we don't need two sensors when the measurement aligns//
+	three += t;
+}
+	for (f = 5; f < number; f += 5) {
+	five += f;
+	}
+	return(add(three, five));
+}
+solution(10);
